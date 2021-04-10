@@ -12,5 +12,5 @@
        region: "ap-south-1"
        state: present
        group_id: "sg-047693177b9a4ddd6"
-       aws_access_key: "AKIAX4MY3AOXNPX6BTMX"
-       aws_secret_key: "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"
+       aws_access_key: "AKIAX4MY3AOXNPX"
+       aws_secret_key: "tc8739yDMjBqHPKHrX5R91jI/wCO2MT"
