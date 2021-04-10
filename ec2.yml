@@ -1,0 +1,16 @@
+- hosts: localhost
+   tasks:
+   - name: provisioning os in aws
+     ec2:
+       key_name: mykey1111
+       instance_type: "t2.micro"
+       image: "ami-0ebc1ac48dfd14136"
+       wait: yes
+       count: 1
+       vpc_subnet_id: "subnet-0a49125ece097f3e3"
+       assign_public_ip: yes
+       region: "ap-south-1"
+       state: present
+       group_id: "sg-047693177b9a4ddd6"
+       aws_access_key: "AKIAX4MY3AOXNPX6BTMX"
+       aws_secret_key: "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"
